@@ -1,60 +1,83 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find My Way</title>
-    <link rel="icon" href="images/reserve.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css" />
-</head>
 
-<body>
-    <header>
-        <h1 class="topic">Find My Way</h1>
-        <p>This website is created to help people find the resources to reach their destinations quickly.</p>
-    </header>
+<html>
+    <head>
+        <title>Find_My_Way</title>
+        <link rel="icon" href="images/reserve.png" type="image/x- icon">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+        <script type="text/javascript" src="script.js"></script>
+        <script>
+            function redirect() {
+              window.location.href = "home.html";  // Redirect to home.html
+            }
+          </script>
+    </head>
 
-    <nav class="sidebar">
-        <button>Home</button>
-        <button>History</button>
-        <button>Maps</button>
-        <button>Emergency Info</button>
-        <button>Report a Finding</button>
-        <button>Suggestions</button>
-    </nav>
-
-    <main class="content">
-        <h2>You can find the places by clicking the options below:</h2>
-        <img src="images/locate.png" alt="Locate icon" class="location" />
-        <p>This website helps you locate your location.</p>
+    <body>
+        <!-- Add HTML markup elements for your web site below -->
+        <h2 class="topic">Find My Way</h2>
+        <p> This is a website to created to help people find the resources to reach their deatination quickly.</p>
+        <ul>
+            <li>You can find the places by clicking the options given below:</li>
+        </ul>
+        <br>
         
-        <img src="images/reserve.png" alt="Reservation icon" class="reservation" />
-        <p>It helps you find disability-friendly places.</p>
-
-        <iframe src="https://pixabay.com/videos/animated-wallpaper-wallpaper-70962/" 
-                title="Animated Wallpaper" 
-                frameborder="0" 
-                allowfullscreen></iframe>
+        <p>This webite helps you to locate your location.</p>
         
-        <h2><a href="https://www.collegefortn.org/disability-resources/" target="_blank">More info on disability resources</a></h2>
+        <p>It helps you to find disability friendly places.</p>
+        <a href="https://www.collegefortn.org/disability-resources/"><h2>More info on disability resources</h2></a>
+        <div class="content">
+          
+          <button>Elevators</button>
+          
+          <button>Staircase</button>
+        
+           
+          <button>Disable-friendly Path</button>
+        
+          <button>walking Path</button>
+          
+          <button>Transportaion</button>
 
-        <section id="facility-options">
-            <div id="first">
-                <button>Elevators</button>
-                <button>Staircase</button>
-            </div>
-            <div id="second">
-                <button>Disability-Friendly Path</button>
-                <button>Walking Path</button>
-            </div>
-            <div id="third">
-                <button>Transportation</button>
-                <button>Parking</button>
-            </div>
-        </section>
-    </main>
-
+          <button>Parking</button>
+          </div>
+        <header>
+            
+                <header>
+                    <div class="logo">
+                      <h1>My Website</h1>
+                    </div>
+                    <nav>
+                      <ul class="nav-links">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About ">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                      </ul>
+                    </nav>
+         </header>
+                  
+            
+        
     
-</body>
+     <div class = "pictures">
+      <img src="images/reserve.png" class="reservation"/>
+      <img src="images/locate (1).png" class="location"/>
+     </div>       
+        
+    </header>
+    <footer class="footer">
+        <p>Check out these resources:</p>
+        
+        <ul>
+            <li><a href="https://wid.org/" target="_blank">World Institute on Disability</a></li>
+            
+        </ul>
+    </footer>
+    </body>
 </html>
+
+
 
